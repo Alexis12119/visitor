@@ -72,7 +72,7 @@ const VisitorTable: React.FC<VisitorTableProps> = ({
                 <td className="border-2 border-gray-700 px-4 py-3 text-center">
                   {visitor.checkOutTime ? (
                     <span className="inline-block px-2 py-1 bg-green-100 text-green-800 rounded text-sm">
-                      Time Out
+                      Timed Out
                     </span>
                   ) : (
                     <button

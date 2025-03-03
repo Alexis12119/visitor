@@ -3,7 +3,7 @@ import { openDB, DBSchema } from "idb";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import VisitorTable from "./components/Visitor/Table";
-import VisitorModal from "./components/Visitor/Modal";
+import VisitorModal from "./components/Visitor/Modals/AddVisitor";
 
 interface VisitorDB extends DBSchema {
   visitors: {
