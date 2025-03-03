@@ -196,7 +196,7 @@ const App: React.FC = () => {
             onClick={() => setIsModalOpen(true)}
             className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-5 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105"
           >
-            + Add Visitor
+            Add Visitor
           </button>
           <button
             onClick={resetDatabase}

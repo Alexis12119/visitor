@@ -31,10 +31,10 @@ const VisitorTable: React.FC<VisitorTableProps> = ({
               Contact
             </th>
             <th className="border-2 border-gray-700 px-4 py-3 font-semibold text-center text-black">
-              Check-In Time
+              Time-In Time
             </th>
             <th className="border-2 border-gray-700 px-4 py-3 font-semibold text-center text-black">
-              Check-Out Time
+              Time-Out Time
             </th>
             <th className="border-2 border-gray-700 px-4 py-3 text-center font-semibold text-black">
               Action
@@ -72,14 +72,14 @@ const VisitorTable: React.FC<VisitorTableProps> = ({
                 <td className="border-2 border-gray-700 px-4 py-3 text-center">
                   {visitor.checkOutTime ? (
                     <span className="inline-block px-2 py-1 bg-green-100 text-green-800 rounded text-sm">
-                      Checked Out
+                      Time Out
                     </span>
                   ) : (
                     <button
                       onClick={() => visitor.id && onCheckOut(visitor.id)}
                       className="bg-red-600 hover:bg-red-700 text-white py-1 px-3 rounded text-sm transition-colors"
                     >
-                      Check Out
+                      Time Out
                     </button>
                   )}
                 </td>
